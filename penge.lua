@@ -1,17 +1,11 @@
 --[[
     Lavet af: ReanCoding
 --]]
-
-
-
 ------------------------------------------------ Props -----------------------------------------------------------------
-
 local holdingpenge = false
 local pengemodel = "prop_anim_cash_pile_01"
 local cash_net = nil
-
 ------------------------------------------------ Scriptet -----------------------------------------------------------------
-
 RegisterCommand("penge",function(source, args)
 
 	local player = GetPlayerPed(-1)
@@ -59,9 +53,7 @@ RegisterCommand("penge",function(source, args)
 		end
 	end
 end, false)
-
 ------------------------------------------------ Du må ikke ændre noget her -----------------------------------------------------------------
-
 function loadAnimDict(dict)
 	while (not HasAnimDictLoaded(dict)) do 
 		RequestAnimDict(dict)
