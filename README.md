@@ -1,3 +1,3 @@
 # vrp_emotes
 
-Dette script gør sådan at du kan kaste med penge, ved at skrive "/penge" i server chatten.
+Dette script gør sådan at du kan lave handlinger, ved at skrive "/emotes" i server chatten.
