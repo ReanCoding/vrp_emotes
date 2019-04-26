@@ -10,6 +10,7 @@ server_script{
 client_script{  
 "client.lua",    
 "penge.lua",
-"fyrværkeri.lua"
+"fyrværkeri.lua",
+"hest.lua"
 }
 
